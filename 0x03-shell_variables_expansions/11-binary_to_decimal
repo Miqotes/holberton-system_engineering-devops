@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((2#10)) | export BINARY
+bconvert.sh -i 2 10 =this | export this=BINARY
