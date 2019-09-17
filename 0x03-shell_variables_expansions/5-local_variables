@@ -1,2 +1,2 @@
 #!/bin/bash
-typeset -p
+declare -xp | cut -d ' ' -f3
